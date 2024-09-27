@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/server.js"
+      }
+    ],
+    "env": {
+      "CORSANYWHERE_BLACKLIST": "",
+      "CORSANYWHERE_WHITELIST": "",
+      "CORSANYWHERE_RATELIMIT": ""
+    }
+  }
+  
