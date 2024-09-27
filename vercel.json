@@ -1,9 +1,15 @@
 {
     "version": 2,
     "functions": {
-      "api/cors.js": {
-        "runtime": "nodejs20.x" 
+      "server.js": {
+        "runtime": "nodejs16.x"
       }
-    }
+    },
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "server.js"
+      }
+    ]
   }
   
