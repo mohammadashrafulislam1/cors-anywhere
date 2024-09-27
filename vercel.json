@@ -2,7 +2,7 @@
     "version": 2,
     "functions": {
       "api/cors.js": {
-        "runtime": "nodejs16.x" 
+        "runtime": "nodejs20.x" 
       }
     }
   }
